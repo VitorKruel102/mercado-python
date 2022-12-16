@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mercado-python"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Kruel102 <vkruel.programador@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mercado_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
